@@ -1,0 +1,8 @@
+---
+- name: Ansible Playbook to Test Unix Based managed nodes connectivity using ping module
+  hosts: all
+  gather_facts: no
+  
+  tasks:
+    - name: Test connectivity using ping module
+      ping:  
