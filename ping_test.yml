@@ -2,6 +2,7 @@
 - name: Ansible Playbook to Test Unix Based managed nodes connectivity using ping module
   hosts: all
   ignore_errors: yes
+  ignore_unreachable: yes
   gather_facts: no
  
   tasks:
