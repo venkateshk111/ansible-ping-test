@@ -1,5 +1,5 @@
 [linux]
-172.31.40.161
+172.31.59.184
 
 [linux:vars]
 #ansible_user=  ansible
